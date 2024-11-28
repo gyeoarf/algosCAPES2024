@@ -66,5 +66,6 @@ def f(x):
     return x ** 2
 
 
-def derivee(a, epsilon):
-    return
+def derivee(a, epsilon): # approximation de la dérivée de f en a (epsilon petit)
+    return (f(a + epsilon) - f(a)) / epsilon
+
